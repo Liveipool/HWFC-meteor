@@ -1,0 +1,26 @@
+/*
+  左半部分的样式
+ */
+
+.marginL1 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+/*
+  右半部分的样式
+ */
+
+.marginR1 {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.text-blue {
+  color: #317EF3 !important;
+}
+
+.champion {
+  height:0px;
+  padding-bottom:100%;
+}
