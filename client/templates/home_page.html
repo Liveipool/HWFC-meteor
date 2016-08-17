@@ -1,8 +1,38 @@
 <template name="homePage">
-    <h1>HWFC</h1>
-    <div>
-        {{#each datas}}
-            <div>{{content}}</div>
-        {{/each}}
+    <div class="container">
+      <div class="row">
+
+        <!--左半部分-->
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-md-5 col-md-offset-7">
+              <img src="2016-05-28sanxing.JPG" class="img-responsive" alt='2016-05-28sanxing'>
+            </div>
+          </div>
+
+          <div class="marginL1">
+            <p>2010年６月８日</p>
+            <p>HWFC夺得第一座院系杯冠军</p>
+          </div>
+
+        </div>
+
+        <div class="col-md-2"></div>
+
+        <!--右半部分-->
+        <div class="col-md-5">
+          <div class="marginR1 text-blue">
+            <p>2010年9月30日</p>
+            <p>李元博、陈文特创建球队</p>
+            <p>名为Hello World Football Club，简称HWFC（混碗饭吃）</p>
+          </div>
+
+          <div class="champion">
+            <img src="2016-05-28champion.JPG" class="img-responsive" alt='2016-05-28champion'>
+          </div>
+          
+        </div>
+
+      </div>
     </div>
 </template>
