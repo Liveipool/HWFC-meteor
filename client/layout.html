@@ -2,20 +2,48 @@
   <title>HWFC</title>
 </head>
 <template name="layout">
-  <nav class="navbar navbar-default bg-blue" role="navigation">
-    <div class="navbar-header">
-      <a class="navbar-brand text-white" href="{{pathFor 'recruit'}}">去招新报名<span class="glyphicon glyphicon-arrow-left"></span></a>
+  <div class="container-fluid">
+
+<!--     <nav class="navbar navbar-default bg-blue" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand text-white" href="{{pathFor 'recruit'}}">去招新报名<span class="glyphicon glyphicon-arrow-left"></span></a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li><a class="text-white" href="{{pathFor 'homePage'}}">主页</a></li>
+          <li><a class="text-white" href="{{pathFor 'introduction'}}">球队简介</a></li>
+          <li><a class="text-white" href="{{pathFor 'members'}}">球队成员</a></li>
+          <li><a class="text-white" href="{{pathFor 'records'}}">战绩记录</a></li>
+          <li><a class="text-white" href="{{pathFor 'ranks'}}">积分榜</a></li>
+          <li><a class="text-white" href="{{pathFor 'login'}}">登陆</a></li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <div class="row bg-style">
+      <div class="col-md-6 col-xs-12">
+        <a class="text-white" href="{{pathFor 'recruit'}}">去招新报名<span class="glyphicon glyphicon-arrow-left"></span></a>
+      </div>
+      <div class="col-md-1 col-xs-6">
+        <a class="text-white" href="{{pathFor 'homePage'}}">主页</a>
+      </div>
+      <div class="col-md-1 col-xs-6">
+        <a class="text-white" href="{{pathFor 'introduction'}}">球队简介</a>
+      </div>
+      <div class="col-md-1 col-xs-6">
+        <a class="text-white" href="{{pathFor 'members'}}">球队成员</a>
+      </div>
+      <div class="col-md-1 col-xs-6">
+        <a class="text-white" href="{{pathFor 'records'}}">战绩记录</a>
+      </div>
+      <div class="col-md-1 col-xs-6">
+        <a class="text-white" href="{{pathFor 'ranks'}}">积分榜</a>
+      </div>
+      <div class="col-md-1 col-xs-6">
+        <a class="text-white" href="{{pathFor 'login'}}">登录</a>
+      </div>
     </div>
-    <div>
-      <ul class="nav navbar-nav">
-        <li><a class="text-white" href="{{pathFor 'homePage'}}">主页</a></li>
-        <li><a class="text-white" href="{{pathFor 'introduction'}}">球队简介</a></li>
-        <li><a class="text-white" href="{{pathFor 'members'}}">球队成员</a></li>
-        <li><a class="text-white" href="{{pathFor 'records'}}">战绩记录</a></li>
-        <li><a class="text-white" href="{{pathFor 'ranks'}}">积分榜</a></li>
-        <li><a class="text-white" href="{{pathFor 'login'}}">登陆</a></li>
-      </ul>
-    </div>
-  </nav>
-  {{> yield}}
+
+    {{> yield}}
+  </div>
 </template>

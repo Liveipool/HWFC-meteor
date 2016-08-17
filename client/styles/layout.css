@@ -1,5 +1,10 @@
-.bg-blue {
-  background-color: #317EF3;
+.container-fluid {
+  padding: 0px;
+}
+
+.bg-style {
+  height: 50px !important;
+  background-color: #3399FF;
 }
 
 .text-white {
