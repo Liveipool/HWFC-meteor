@@ -3,8 +3,48 @@
  */
 
 .marginL1 {
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin-top: 130px;
+}
+
+.text-bolder {
+  font-weight: bolder;
+}
+
+.marginL2, .marginR2 {
+  margin-top: 110px;
+}
+
+.marginL3 {
+  margin-top: 80px;
+}
+
+/*
+  用来保证各个列高度一样
+ */
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  background-image: url('images/date.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.child {
+  width: 3px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*
@@ -12,15 +52,27 @@
  */
 
 .marginR1 {
-  margin-top: 60px;
-  margin-bottom: 100px;
+  margin-top: 30px;
 }
 
 .text-blue {
   color: #317EF3 !important;
 }
 
-.champion {
-  height:0px;
-  padding-bottom:100%;
+.marginR3 {
+  margin-top: 170px;
+}
+
+
+/*
+最下面两行字
+ */
+
+.text-biggest {
+  font-size: 50px;
+}
+
+
+.text-bigger {
+  font-size: 30px;
 }
