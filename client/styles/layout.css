@@ -6,15 +6,17 @@
   color: #1489fe !important;
 }
 
+.bg-hwfc-blue {
+  background-color: #3399ff !important;
+}
+
 .head-bar-style {
   height: 80px;
-  background-color: #3399ff;
   margin-bottom: 30px;
 }
 
 .bottom-bar-style {
   height: 20px;
-  background-color: #3399ff;
 }
 
 .text-white {
