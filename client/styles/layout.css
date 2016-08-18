@@ -95,3 +95,20 @@
 .cursive {
   font-family: cursive;
 }
+
+/*字体下的margin*/
+.text-bottom-thirty {
+  margin-bottom: 30px;
+}
+
+.text-bottom-eight {
+  margin-bottom: 8px;
+}
+
+.text-bottom-three {
+  margin-bottom: 3px;
+}
+
+.text-bottom-zero {
+  margin-bottom: 0px;
+}
