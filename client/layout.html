@@ -4,22 +4,6 @@
 <template name="layout">
   <div class="container-fluid">
 
-<!--     <nav class="navbar navbar-default bg-blue" role="navigation">
-      <div class="navbar-header">
-        <a class="navbar-brand text-white" href="{{pathFor 'recruit'}}">去招新报名<span class="glyphicon glyphicon-arrow-left"></span></a>
-      </div>
-      <div>
-        <ul class="nav navbar-nav">
-          <li><a class="text-white" href="{{pathFor 'homePage'}}">主页</a></li>
-          <li><a class="text-white" href="{{pathFor 'introduction'}}">球队简介</a></li>
-          <li><a class="text-white" href="{{pathFor 'members'}}">球队成员</a></li>
-          <li><a class="text-white" href="{{pathFor 'records'}}">战绩记录</a></li>
-          <li><a class="text-white" href="{{pathFor 'ranks'}}">积分榜</a></li>
-          <li><a class="text-white" href="{{pathFor 'login'}}">登陆</a></li>
-        </ul>
-      </div>
-    </nav> -->
-
     <div class="row head-bar-style bg-hwfc-blue">
       <div class="col-md-6 col-xs-1 nav-padding zhaoxin">
         <a class="text-white text-bold text-twenty-three zhaoxin-text" href="{{pathFor 'recruit'}}">招新报名<span class="glyphicon glyphicon-arrow-left left-arrow"></span></a>
@@ -50,33 +34,16 @@
       </div>
     </div>
 
-<!--     <div class="row head-bar-style">
-      <div class="col-md-6 col-xs-6">
-        <a class="text-white" href="{{pathFor 'recruit'}}">去招新报名<span class="glyphicon glyphicon-arrow-left"></span></a>
-      </div>
-      <div class="col-md-6">
-        <ul class="row nav nav-pills">
-          <li role="presentation" class="col-md-2"><a class="text-white" href="{{pathFor 'homePage'}}">主页</a></li>
-          <li role="presentation" class="col-md-2"><a class="text-white" href="{{pathFor 'introduction'}}">球队简介</a></li>
-          <li role="presentation" class="col-md-2"><a class="text-white" href="{{pathFor 'members'}}">球队成员</a></li>
-          <li role="presentation" class="col-md-2"><a class="text-white" href="{{pathFor 'records'}}">战绩记录</a></li>
-          <li role="presentation" class="col-md-2"><a class="text-white" href="{{pathFor 'ranks'}}">积分榜</a></li>
-          <li role="presentation" class="col-md-2"><a class="text-white" href="{{pathFor 'login'}}">登录</a></li>
-        </ul>
-      </div>
-    </div>
- -->
-
     {{> yield}}
 
     <div class="marginR1 hwfc-blue">
-      <p class="text-center text-sixty text-bold">我在中大，混碗饭吃</p>
-      <p class="text-center text-thirty-five">Hello World Football Club</p>
+      <p class="text-center text-sixty text-bold cursive">我在中大，混碗饭吃</p>
+      <p class="text-center text-thirty-five cursive">Hello World Football Club</p>
     </div>
-
     <div class="bottom-bar-style bg-hwfc-blue">
-      <div class="copyright"> @Copyright Hello World Football Club
+      <div class="copyright cursive"> @Copyright Hello World Football Club
       </div>
     </div>
+
   </div>
 </template>
