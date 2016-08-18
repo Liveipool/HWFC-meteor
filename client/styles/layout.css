@@ -5,6 +5,10 @@
 .hwfc-blue {
   color: #1489fe !important;
 }
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
 
 .bg-hwfc-blue {
   background-color: #3399ff !important;
@@ -15,8 +19,13 @@
   margin-bottom: 30px;
 }
 
+.nav-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .bottom-bar-style {
-  height: 20px;
+  height: 25px;
 }
 
 .text-white {
@@ -27,14 +36,58 @@
   font-weight: bold;
 }
 
-.text-fifty {
-  font-size: 50px;
+.text-sixty {
+  font-size: 60px;
 }
 
-.text-thirty {
-  font-size: 30px;
+.text-thirty-five {
+  font-size: 35px;
+}
+
+.text-twenty-three {
+  font-size: 23px;
+}
+
+.text-nineteen {
+  font-size: 20px;
 }
 
 .text-sixteen {
   font-size: 16px;
+}
+
+.text-fifteen {
+  font-size: 15px;
+}
+
+.zhaoxin {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.zhaoxin-text {
+  padding-left: 15px;
+}
+
+.left-arrow {
+  padding-left: 10px;
+}
+
+.jiangbei {
+  width: 40px !important;
+  height: 40px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 8px;
+  margin-bottom: 7px;
+}
+
+.denglu {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.copyright {
+  padding-left: 3px;
+  padding-top: 3px;
 }
