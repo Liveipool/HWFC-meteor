@@ -2,11 +2,37 @@
   padding: 0px;
 }
 
-.bg-style {
-  height: 50px !important;
-  background-color: #3399FF;
+.hwfc-blue {
+  color: #1489fe !important;
+}
+
+.head-bar-style {
+  height: 80px;
+  background-color: #3399ff;
+  margin-bottom: 30px;
+}
+
+.bottom-bar-style {
+  height: 20px;
+  background-color: #3399ff;
 }
 
 .text-white {
   color: #FFFFFF !important;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-fifty {
+  font-size: 50px;
+}
+
+.text-thirty {
+  font-size: 30px;
+}
+
+.text-sixteen {
+  font-size: 16px;
 }
