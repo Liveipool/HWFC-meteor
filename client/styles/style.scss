@@ -1,23 +1,19 @@
 /*已写好一些常用的类名，以后可以直接类名加数字来用，注意范围
 
-fs-  :font-size
-m-   :margin
-ml-  :margin-left
-mr-  :margin-right
-mt-  :margin-top
-mb-  :margin-bottom
-p-   :padding
-pl-  :padding-left
-pr-  :padding-right
-pt-  :padding-top
-pb-  :padding-bottom
-b-   :border
-bl-  :border-left
-br-  :border-right
-bt-  :border-top
-bb-  :border-bottom
-w-   :width
-h-   :height
+fs-         :font-size
+m-          :margin
+ml-         :margin-left
+mr-         :margin-right
+mt-         :margin-top
+mb-         :margin-bottom
+p-          :padding
+pl-         :padding-left
+pr-         :padding-right
+pt-         :padding-top
+pb-         :padding-bottom
+w-          :width
+h-          :height
+text-bold   :font-weight bold
 
 以后添加新的类名时，记得在上面做好注释*/
 
@@ -98,41 +94,6 @@ h-   :height
       } 
   }
 
-  // border helpers
-  @for $i from 0 through 300 {
-      .b-#{$i} {
-          border: #{$i + 'px solid #000'} !important;
-      } 
-  }
-
-  // border-left helpers
-  @for $i from 0 through 300 {
-      .bl-#{$i} {
-          border-left: #{$i + 'px solid #000'} !important;
-      } 
-  }
-
-  // border-right helpers
-  @for $i from 0 through 300 {
-      .br-#{$i} {
-          border-right: #{$i + 'px solid #000'} !important;
-      } 
-  }
-
-  // border-top helpers
-  @for $i from 0 through 300 {
-      .bt-#{$i} {
-          border-top: #{$i + 'px solid #000'} !important;
-      } 
-  }
-
-  // border-bottom helpers
-  @for $i from 0 through 300 {
-      .bb-#{$i} {
-          border-bottom: #{$i + 'px solid #000'} !important;
-      } 
-  }
-
   // width helpers
   @for $i from 0 through 300 {
       .w-#{$i} {
@@ -145,4 +106,9 @@ h-   :height
       .h-#{$i} {
           height: #{$i + 'px'} !important;
       } 
+  }
+
+  // text-bold helpers
+  .text-bold {
+    font-weight: bold;
   }

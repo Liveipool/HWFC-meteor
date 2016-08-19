@@ -2,46 +2,46 @@
   <title>HWFC</title>
 </head>
 <template name="layout">
-  <div class="container-fluid">
+  <div class="container-fluid p-0">
 
-    <div class="row head-bar-style bg-hwfc-blue">
-      <div class="col-md-6 col-xs-1 nav-padding zhaoxin">
-        <a class="text-white text-bold text-twenty-three zhaoxin-text" href="{{pathFor 'recruit'}}">招新报名<span class="glyphicon glyphicon-arrow-left left-arrow"></span></a>
+    <div class="row h-80 mb-30 bg-hwfc-blue ml-0 mr-0">
+      <div class="col-md-6 col-xs-1 pl-0 pr-0 zhaoxin">
+        <a class="text-white text-bold fs-23 pl-15" href="{{pathFor 'recruit'}}">招新报名<span class="glyphicon glyphicon-arrow-left pl-10"></span></a>
       </div>
-      <div class="col-md-1 col-xs-2 nav-padding">
+      <div class="col-md-1 col-xs-2 pl-0 pr-0">
         <div><img src="images/jiangbei.png" class="img-responsive jiangbei" alt='jiangbei'></div>
-        <a class="text-white text-center text-sixteen text-bold" href="{{pathFor 'homePage'}}">主页</a>
+        <a class="text-white text-center fs-16 text-bold" href="{{pathFor 'homePage'}}">主页</a>
       </div>
-      <div class="col-md-1 col-xs-2 nav-padding">
+      <div class="col-md-1 col-xs-2 pl-0 pr-0">
         <img src="images/jiangbei.png" class="img-responsive jiangbei text-center" alt='jiangbei'>
-        <a class="text-white text-center text-sixteen text-bold" href="{{pathFor 'introduction'}}">球队简介</a>
+        <a class="text-white text-center fs-16 text-bold" href="{{pathFor 'introduction'}}">球队简介</a>
       </div>
-      <div class="col-md-1 col-xs-2 nav-padding">
+      <div class="col-md-1 col-xs-2 pl-0 pr-0">
         <img src="images/jiangbei.png" class="img-responsive jiangbei text-center" alt='jiangbei'>
-        <a class="text-white text-center text-sixteen text-bold" href="{{pathFor 'members'}}">球队成员</a>
+        <a class="text-white text-center fs-16 text-bold" href="{{pathFor 'members'}}">球队成员</a>
       </div>
-      <div class="col-md-1 col-xs-2 nav-padding">
+      <div class="col-md-1 col-xs-2 pl-0 pr-0">
         <img src="images/jiangbei.png" class="img-responsive jiangbei text-center" alt='jiangbei'>
-        <a class="text-white text-center text-sixteen text-bold" href="{{pathFor 'records'}}">战绩记录</a>
+        <a class="text-white text-center fs-16 text-bold" href="{{pathFor 'records'}}">战绩记录</a>
       </div>
-      <div class="col-md-1 col-xs-2 nav-padding">
+      <div class="col-md-1 col-xs-2 pl-0 pr-0">
         <img src="images/jiangbei.png" class="img-responsive jiangbei text-center" alt='jiangbei'>
-        <a class="text-white text-center text-sixteen text-bold" href="{{pathFor 'ranks'}}">积分榜</a>
+        <a class="text-white text-center fs-16 text-bold" href="{{pathFor 'ranks'}}">积分榜</a>
       </div>
-      <div class="col-md-1 col-xs-1 nav-padding">
-        <div class="glyphicon glyphicon-user text-center text-twenty-three denglu"></div>
-        <a class="text-white text-center text-sixteen text-bold" href="{{pathFor 'login'}}">登录</a>
+      <div class="col-md-1 col-xs-1 pl-0 pr-0">
+        <div class="glyphicon glyphicon-user text-center fs-23 mt-20 mb-7"></div>
+        <a class="text-white text-center fs-16 text-bold" href="{{pathFor 'login'}}">登录</a>
       </div>
     </div>
 
     {{> yield}}
 
     <div class="mt-30 hwfc-blue">
-      <p class="text-center text-sixty text-bold cursive text-bottom-zero">我在中大，混碗饭吃</p>
-      <p class="text-center text-thirty-five cursive text-bottom-thirty">Hello World Football Club</p>
+      <p class="text-center fs-60 text-bold cursive mb-0">我在中大，混碗饭吃</p>
+      <p class="text-center fs-35 cursive mb-30">Hello World Football Club</p>
     </div>
-    <div class="bottom-bar-style bg-hwfc-blue">
-      <div class="copyright cursive"> @Copyright Hello World Football Club
+    <div class="h-25 bg-hwfc-blue">
+      <div class="pl-3 pt-3 cursive"> @Copyright Hello World Football Club
       </div>
     </div>
 

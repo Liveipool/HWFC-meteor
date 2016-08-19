@@ -1,76 +1,18 @@
-.container-fluid {
-  padding: 0px;
-}
-
 .hwfc-blue {
   color: #1489fe !important;
-}
-.row {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
 }
 
 .bg-hwfc-blue {
   background-color: #3399ff !important;
 }
 
-.head-bar-style {
-  height: 80px;
-  margin-bottom: 30px;
-}
-
-.nav-padding {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.bottom-bar-style {
-  height: 25px;
-}
-
 .text-white {
   color: #FFFFFF !important;
-}
-
-.text-bold {
-  font-weight: bold;
-}
-
-.text-sixty {
-  font-size: 60px;
-}
-
-.text-thirty-five {
-  font-size: 35px;
-}
-
-.text-twenty-three {
-  font-size: 23px;
-}
-
-.text-nineteen {
-  font-size: 20px;
-}
-
-.text-sixteen {
-  font-size: 16px;
-}
-
-.text-fifteen {
-  font-size: 15px;
 }
 
 .zhaoxin {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.zhaoxin-text {
-  padding-left: 15px;
-}
-
-.left-arrow {
-  padding-left: 10px;
 }
 
 .jiangbei {
@@ -82,33 +24,6 @@
   margin-bottom: 7px;
 }
 
-.denglu {
-  margin-top: 20px;
-  margin-bottom: 7px;
-}
-
-.copyright {
-  padding-left: 3px;
-  padding-top: 3px;
-}
-
 .cursive {
   font-family: cursive;
-}
-
-/*字体下的margin*/
-.text-bottom-thirty {
-  margin-bottom: 30px;
-}
-
-.text-bottom-eight {
-  margin-bottom: 8px;
-}
-
-.text-bottom-three {
-  margin-bottom: 3px;
-}
-
-.text-bottom-zero {
-  margin-bottom: 0px;
 }
