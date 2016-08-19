@@ -1,0 +1,148 @@
+/*已写好一些常用的类名，以后可以直接类名加数字来用，注意范围
+
+fs-  :font-size
+m-   :margin
+ml-  :margin-left
+mr-  :margin-right
+mt-  :margin-top
+mb-  :margin-bottom
+p-   :padding
+pl-  :padding-left
+pr-  :padding-right
+pt-  :padding-top
+pb-  :padding-bottom
+b-   :border
+bl-  :border-left
+br-  :border-right
+bt-  :border-top
+bb-  :border-bottom
+w-   :width
+h-   :height
+
+以后添加新的类名时，记得在上面做好注释*/
+
+  // font-size helpers
+  @for $i from 0 through 300 {
+      .fs-#{$i} {
+          font-size: #{$i + 'px'} !important;
+      } 
+  }
+
+  // margin helpers
+  @for $i from 0 through 300 {
+      .m-#{$i} {
+          margin: #{$i + 'px'} !important;
+      } 
+  }
+
+  // margin-left helpers
+  @for $i from 0 through 300 {
+      .ml-#{$i} {
+          margin-left: #{$i + 'px'} !important;
+      } 
+  }
+
+  // margin-right helpers
+  @for $i from 0 through 300 {
+      .mr-#{$i} {
+          margin-right: #{$i + 'px'} !important;
+      } 
+  }
+
+  // margin-top helpers
+  @for $i from 0 through 300 {
+      .mt-#{$i} {
+          margin-top: #{$i + 'px'} !important;
+      } 
+  }
+
+  // margin-bottom helpers
+  @for $i from 0 through 300 {
+      .mb-#{$i} {
+          margin-bottom: #{$i + 'px'} !important;
+      } 
+  }
+
+  // padding helpers
+  @for $i from 0 through 300 {
+      .p-#{$i} {
+          padding: #{$i + 'px'} !important;
+      } 
+  }
+
+  // padding-left helpers
+  @for $i from 0 through 300 {
+      .pl-#{$i} {
+          padding-left: #{$i + 'px'} !important;
+      } 
+  }
+
+  // padding-right helpers
+  @for $i from 0 through 300 {
+      .pr-#{$i} {
+          padding-right: #{$i + 'px'} !important;
+      } 
+  }
+
+  // padding-top helpers
+  @for $i from 0 through 300 {
+      .pt-#{$i} {
+          padding-top: #{$i + 'px'} !important;
+      } 
+  }
+
+  // padding-bottom helpers
+  @for $i from 0 through 300 {
+      .pb-#{$i} {
+          padding-bottom: #{$i + 'px'} !important;
+      } 
+  }
+
+  // border helpers
+  @for $i from 0 through 300 {
+      .b-#{$i} {
+          border: #{$i + 'px solid #000'} !important;
+      } 
+  }
+
+  // border-left helpers
+  @for $i from 0 through 300 {
+      .bl-#{$i} {
+          border-left: #{$i + 'px solid #000'} !important;
+      } 
+  }
+
+  // border-right helpers
+  @for $i from 0 through 300 {
+      .br-#{$i} {
+          border-right: #{$i + 'px solid #000'} !important;
+      } 
+  }
+
+  // border-top helpers
+  @for $i from 0 through 300 {
+      .bt-#{$i} {
+          border-top: #{$i + 'px solid #000'} !important;
+      } 
+  }
+
+  // border-bottom helpers
+  @for $i from 0 through 300 {
+      .bb-#{$i} {
+          border-bottom: #{$i + 'px solid #000'} !important;
+      } 
+  }
+
+  // width helpers
+  @for $i from 0 through 300 {
+      .w-#{$i} {
+          width: #{$i + 'px'} !important;
+      } 
+  }
+
+  // height helpers
+  @for $i from 0 through 300 {
+      .h-#{$i} {
+          height: #{$i + 'px'} !important;
+      } 
+  }
