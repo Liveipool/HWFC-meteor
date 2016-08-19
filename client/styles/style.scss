@@ -95,14 +95,14 @@ text-bold   :font-weight bold
   }
 
   // width helpers
-  @for $i from 0 through 300 {
+  @for $i from 0 through 1500 {
       .w-#{$i} {
           width: #{$i + 'px'} !important;
       } 
   }
 
   // height helpers
-  @for $i from 0 through 300 {
+  @for $i from 0 through 1500 {
       .h-#{$i} {
           height: #{$i + 'px'} !important;
       } 
