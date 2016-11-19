@@ -1,5 +1,5 @@
 # HWFC
-###HWFC官方网站(一开始使用的meteor版)。
+###HWFC官方网站(一开始使用的meteor版,由于meteor经常出现无法安装的问题，故弃用)。
 **启动方式：**    
 *  确保电脑上的meteor已为1.4.0.1以上版本。    
 *  git clone 代码。     
